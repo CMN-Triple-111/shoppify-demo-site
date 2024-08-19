@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Animation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/section-2.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/section-3.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/section-4.css">
+
+  
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <p><strong>Shoppify</strong></p>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav narbar right">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="dashboard.html">Dashboard</a>
+                      <a class="nav-link disabled" href="#">Pricing</a>
+                      <a class="nav-link" href="index.html">Checkout</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              
+            
+</head>
+<style>
+  .background-image-div {
+    background-color: rgb(241, 241, 241);
+    background-image: url('assets/images/bk_1.png');
+    background-size: contain; /* Adjusts the image to cover the entire div */
+    background-position: right; /* Centers the image within the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%;
+    height: 450px; /* Set the height of the div */
+  
+  }
+
+    .carousel__face:nth-child(1) {
+      background-image: url('assets/images/image1.jpg');
+      transform: rotateY(  0deg) translateZ(430px); }
+    .carousel__face:nth-child(2) { 
+      background-image: url('assets/images/image2');
+      transform: rotateY( 40deg) translateZ(430px); }
+
+    .carousel__face:nth-child(3) {
+      background-image: url('assets/images/image3.jpg');
+      transform: rotateY( 80deg) translateZ(430px); }
+    .carousel__face:nth-child(4) {
+      background-image: url('assets/images/image4.jpg');     
+      transform: rotateY(120deg) translateZ(430px); }
+    .carousel__face:nth-child(5) { 
+      background-image: url('assets/images/image5.jpg');      
+      transform: rotateY(160deg) translateZ(430px); }
+    .carousel__face:nth-child(6) { 
+      background-image: url("https://images.pexels.com/photos/1834400/pexels-photo-1834400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      transform: rotateY(200deg) translateZ(430px); }
+    .carousel__face:nth-child(7) { 
+      background-image: url("https://images.pexels.com/photos/1415268/pexels-photo-1415268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      transform: rotateY(240deg) translateZ(430px); }
+    .carousel__face:nth-child(8) {
+      background-image: url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      transform: rotateY(280deg) translateZ(430px); }
+    .carousel__face:nth-child(9) {
+      background-image: url("https://images.pexels.com/photos/1175135/pexels-photo-1175135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      transform: rotateY(320deg) translateZ(430px); }
+       
+</style>
+ 
+<body>
+  
+  <!--section header-->
+  <section class="header ">   
+    <div class="container background-image-div">
+      <div class="margin-content-1">
+        <h class="h-1 responsive-text">A classic Shoppify</h>
+         <div class="p-bold">
+         <p class="responsive-text">Get up to 30% off<br>New Arrivals</p>
+         </div>
+      </div>
+      <div class="botton-1">SHOP NOW</div>
+    </div>
+  </section>
+  
+        <!--section two-->
+  <section class="carousel-section">   
+    <div class="contain">
+      <div class="carousel">
+        <div class="carousel__face"><span>This is something</span></div>
+        <div class="carousel__face"><span>Very special</span></div>
+        <div class="carousel__face"><span>Special is the key</span></div>
+        <div class="carousel__face"><span>For you</span></div>
+        <div class="carousel__face"><span>Just give it</span></div>
+        <div class="carousel__face"><span>A try</span></div>
+        <div class="carousel__face"><span>And see</span></div>
+        <div class="carousel__face"><span>How IT Works</span></div>
+        <div class="carousel__face"><span>Woow</span></div>
+      </div>
+    </div>
+  </section>  
+
+  <!--section three-->
+  <section class="section-3">
+    <div class="card-container">
+
+      <!--card 1-->
+      <div class="card">
+        <div class="card-image-container">
+          <img src="assets/images/women.jpg" alt="Image Description" class="card-image" height="100">
+        </div>  
+        <div class="card-content">
+            <h3>WOMEN'S</h3>
+          
+        </div>
+      </div>
+
+      <!--card 2-->
+      <div class="card">
+        <div class="card-image-container">
+          <img src="assets/images/image2.jpg" alt="Image Description" class="card-image" width="200" height="200">
+        </div>  
+        <div class="card-content">
+            <h3>ACCESSORIES'S</h3>
+
+        </div>
+      </div>
+
+      <!--card 3-->
+      <div class="card">
+        <div class="card-image-container">
+          <img src="assets/images/ca_2.jpg" alt="Image Description" class="card-image" width="200" height="200">
+        </div>  
+        <div class="card-content">
+            <h3>WEAREABLE's</h3>
+        </div>
+      </div>
+
+      <!--card 4-->
+      <div class="card col m-2">
+        <div class="card-image-container">
+          <img src="assets/images/men.jpg" alt="Image Description" class="card-image" width="200" height="200">
+        </div>  
+        <div class="card-content">
+            <h3>MEN'S</h3>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+<section class="section-4">
+    
+  <div class="container-floats">
+
+    <div class="container-float-card">
+      <div class="video-container">
+        <video autoplay muted loop>
+            <source src="assets/videos/shoe-play.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    
+    
+  </div>
+
+  <div class="container-float-card">
+    <div class="floating image" style="height: 150px; width: 150px;padding: 10px">
+      <img src="assets/images/show-addias.png" width="200" height="200">
+    </div>
+    <a href="checkout.html"><div class="button-1 content">BUY NOW</div></a>
+    <div class="card-content">
+        <h3>50% Off</h3>  
+    </div>
+    
+  </div>
+
+  <div class="container-float-card">
+    <div class="floating image" style="height: 150px; width: 150px;padding: 10px">
+      <img src="assets/images/shoe.png" width="200" height="200">
+    </div>
+    <a href="checkout.html"><div class="button-1 content">BUY NOW</div></a>
+    <div class="card-content">
+      <h3>50% Off</h3>  
+  </div>
+  </div>
+    
+  <div class="container-float-card">
+    <div class="floating image" style="height: 150px; width: 150px;padding: 10px">
+      <img src="assets/images/shoe.png" width="200" height="200">
+    </div>
+    <a href="checkout.html"><div class="button-1 content">BUY NOW</div></a>
+    <div class="card-content">
+      <h3>50% Off</h3>  
+  </div>
+  </div>
+    
+    
+  </div>
+  
+    
+</section>
+
+<!--section 4-->
+
+<section class="section-4">
+    
+  <div class="container-floats">
+
+    <div class="container-float-card">
+      <div class="video-container">
+        <video autoplay muted loop>
+            <source src="assets/videos/female-model.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    
+    
+  </div>
+
+  <div class="container-float-card">
+    <div class="card-grid">
+      <div class="card">
+          <img src="assets/images/sweater-2.jpg" alt="Image 1" class="card-image">
+          <div class="card-content">
+              <h3></h3>
+              <p></p>
+          </div>
+      </div>
+      <div class="card">
+          <img src="assets/images/sweater-2.png" alt="Image 2" class="card-image">
+          <div class="card-content">
+              <h3></h3>
+              <p></p>
+          </div>
+      </div>
+      <div class="card">
+          <img src="assets/images/hand-bag-2.png" alt="Image 3" class="card-image">
+          <div class="card-content">
+              <h3></h3>
+              <p></p>
+          </div>
+      </div>
+      <div class="card">
+          <img src="assets/images/hand-bag.png" alt="Image 4" class="card-image">
+          <div class="card-content">
+              <h3></h3>
+              <p></p>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+
+    
+  <div class="container-float-card">
+    <div class="container-float-card">
+      <div class="video-container">
+        <video autoplay muted loop>
+            <source src="assets/videos/female-model-2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+  </div>
+    
+    
+  </div>
+  
+    
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="social-icons">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">Behance</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Dribbble</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-12">
+        <div class="copyright-text">
+          <p>Copyright 2024 Chiiko Matthew.
+                
+             | Design: <a rel="nofollow" target="_parent">Chiiko Nswana</a></p>
+        </div>
+        <p style="font-size: 12px; color: red;">! Disclaimer: I do not own some of the materials used in this demo of Work</p>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+
+  <!-- Banner Ends Here -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+ 
+</html>
